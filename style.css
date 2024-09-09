@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3ecec;
+}
+
+section {
+    margin: 20px;
+}
+
+h1 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.btn-container {
+    margin-bottom: 20px;
+}
+
+.filter-btn {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    background-color: #3d4b58;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.filter-btn:hover {
+    background-color: #0056b3;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 200px;
+}
+
+.item img {
+    width: 100%;
+    
+}
